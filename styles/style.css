@@ -1,0 +1,163 @@
+/* Computing Project 1. Candidate Number: ------. CSS */
+body{
+  background-color: #fff;
+}
+/* Border */
+#border {
+    position: relative;
+    border: 1px; /*solid red - used for testing*/
+}
+/* Wrapper */
+#wrapper {
+    position: relative;
+    border: 1px ; /*solid red - used for testing*/
+    margin: 0.5%;
+    min-width: 50vh;
+    min-height: 90vh;
+}
+/* Banner-one - Orange Banner*/
+#banner-one {
+    position: absolute;
+    border: 1px; /*solid red - used for testing*/
+    top: 1%;
+    left: 18%;
+    width: 65%;
+    height: 3%;
+    background-color: #FF6600;/*Orange*/
+}
+/* Banner-two - Black Banner*/
+#banner-two{
+    position: absolute;
+    border: 1px; /*solid red - used for testing*/
+    top: 4%;
+    left: 18%;
+    width: 65%;
+    height: 15%;
+    background-color: #000
+}
+/* Navigation */
+#navigation {
+  list-style-type: none;
+  position: absolute;
+  border: 1px; /*solid red - used for testing*/
+  text-align: right;
+  line-height: 155%;
+  left: 64.5%;
+  top: 15.7%;
+  width: 15%;
+  height: 55%;
+  font-family: sans-serif;
+  font-size: 125%;
+  text-transform: uppercase;
+}
+/*Dots at the bottom*/
+#dot{
+  list-style-type: none;
+  position: absolute;
+  border: 1px; /*solid red - used for testing*/
+  left: 70%;
+  top: 79%;
+  width: 10%;
+  height: 5%;
+}
+/* Main - contains the main image*/
+#main {
+    position: absolute;
+    border: 1px; /*solid red - used for testing*/
+    left: 18%;
+    top: 19%;
+    width: 50%;
+    height: 75%;
+}
+/* Footer */
+#footer {
+  position: absolute;
+  border: 1px; /*solid red - used for testing*/
+  left: 18%;
+  top: 87%;
+  width: 65%;
+  height: 15%;
+}
+.title-image-size{
+  width: 50%;
+  height: 50%;
+  margin-left: 1%;
+  margin-top: 2.5%;
+}
+/* Title*/
+.web-dev-zone{
+  color: #000;
+  font-family: sans-serif;
+  margin-left: 37%;
+  margin-top: 5%;
+}
+/* Line in the footer*/
+.line-one{
+  width: 100%;
+  border: 1.5px solid #ccc;
+  margin-top: 0.02%;
+}
+/* Line in the footer*/
+.line-two{
+  width: 100%;
+  border: 1.5px solid #ccc;
+  margin-top: 5%;
+}
+/* Sets the colour to grey*/
+.grey{
+  color: #ccc
+}
+/* Changes the font family*/
+.banner-font-family{
+  font-family: sans-serif;
+}
+/* Changes the text to uppercase*/
+.web-dev{
+    text-transform:uppercase;
+}
+/* Candidate Number*/
+.candidate{
+  margin-left: 75%;
+  margin-top: -6%;
+}
+/*Web design news and information*/
+.web-design{
+  margin-left: 65%;
+  margin-top: -2.5%;
+  font-size: 100%;
+}
+/* Dots */
+.dots{
+  height: 25px;
+  width: 25px;
+  background-color: #000;
+  border-radius: 50%;
+  display: inline-block;
+}
+/* Dots when hovered*/
+.dots:hover{
+  background-color: #ccc;
+}
+/*Changes the colour*/
+a{
+  color: #000;
+}
+/* link*/
+a:link {
+  text-decoration: none;
+  color: #000;
+}
+/* Hover - Changes links to grey/#ccc */
+a:hover {
+  text-decoration: none;
+  color: #ccc;
+}
+/* Active */
+a:active {
+  text-decoration: none;
+}
+/* Image*/
+img{
+  width: 90%;
+  height: 90%;
+}
